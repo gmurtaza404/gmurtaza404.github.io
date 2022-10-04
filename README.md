@@ -4,4 +4,7 @@ Previously, I have worked with [Dr. Theophillus Benson](https://cs.brown.edu/~ta
 
 I am open to collaborating on any project with an underlying aim to improve technology access, particularly for marginalized communities and third-world countries. I have recently developed a deep interest in understanding Aging; please feel free to contact me if you are interested in having a conversation about it! 
 
+Besides all the research work, I enjoy running, biking and swimming! I did my first half marathon this May and my first 55-mile bike ride last year September. I at some point in my life want to finish at least one Ironman challenge (fingers crossed). Apart from that I enjoy reading about human behavior and psychology ([Behave](https://www.goodreads.com/book/show/31170723-behave) is an amazing book), playing tennis, cooking and more recently woodworking (thanks to brown's amazing design workshop)! 
+
+
 You can reach out to me on my work email: ghulam_murtaza@brown.edu. 
