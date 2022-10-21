@@ -10,11 +10,11 @@ Current Position Description
 ## Education
 
 `2019 - Current`
-__University Name__ Brown University
+__Brown University__  Department of Computer Science,
 Ph.D in Computer Science
 
 `2015 - 2019`
-__University Name__ Lahore University of Management Sciences (LUMS)
+__Lahore University of Management Sciences__ Department of Computer Science,
 Bachelor in Computer Science
 
 ## Awards
@@ -47,16 +47,14 @@ Article Title, Journal Title
 ## Occupation
 
 `Current`
-__Current Job Title__, Full time Research Assistant for Dr Ritambhara Singh, 
+Full time __Research Assistant__ for Dr Ritambhara Singh at Brown University, 
 
-- Task
-- Task
+- Currently working towards developing methods that combine multiple modalities of Genome datasets into a single representation to solve downstream tasks more holistically. 
 
-`1994-1996`
-__Current Job Title__, Current Employer 
+`Current`
+__Foreign Guest Researcher__, Material Measurement Laboratory, National Institute of Standards and Technology (NIST)
+- Developing a comprehensive set of benchmarks for Hi-C data that partitions the similarity scores 
 
-- Task
-- Task
 
 
 
