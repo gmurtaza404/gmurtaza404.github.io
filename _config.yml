@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title: Murtaza's Personal Webpage
+title: Ghulam Murtaza
 locale: en_US
 logo: # filename of a logo image that has been placed into your images directory
 
@@ -9,11 +9,11 @@ owner:
   name: Ghulam Murtaza
   avatar: bio-photo.jpg
   bio: "Hello! My name is Ghulam Murtaza, and I commonly go by my nickname GM. I am currently doing my Ph.D. at Brown under the tutelage of Dr. Ritambhara Singh. I am primarily interested in developing techniques that synthetically or computationally improve the quality of Biological datasets, with a primary aim to support my broader goal of democratizing access to opportunities for conducting "good" science. Apart from that, I am advising undergraduate and masters students on projects that try to create representations to solve various downstream tasks that combine multiple modalities in context of the underlying biology."
-  email: ghulam_murtaza@brown.edu
+  email: #ghulam_murtaza@brown.edu
   # Do not include the @ symbol in your Twitter username
   twitter: #username
   linkedin: #username
-  github: gmurtaza404
+  github: #gmurtaza404
   orcid: # ID Number (ex. 0000-0000-0000-0000)
   researchgate: #username
   mendeley: #username
