@@ -9,32 +9,24 @@ Current Position Description
 
 ## Education
 
-`1990 - 1994`
-__University Name__
-Degree Awarded
+`2019 - Current`
+__University Name__ Brown University
+Ph.D in Computer Science
 
-`1995 - 1997`
-__University Name__
-Degree Awarded 
+`2015 - 2019`
+__University Name__ Lahore University of Management Sciences (LUMS)
+Bachelor in Computer Science
 
 ## Awards
 
-`2012`
-Name of Award, Organization 
+`2016, 2017, 2018`
+Dean's Honor List at LUMS, requires CGPA >= 3.6
 
 ## Publications
 
 <!-- A list is also available [online](https://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
 
-### Journals
-
-`1994`
-Article Title, Journal Title
-
-`1994`
-Article Title, Journal Title
-
-### Books
+### Under Submission
 
 `1994`
 Book Title, Journal Title
@@ -43,16 +35,19 @@ Book Title, Journal Title
 Book Title, Journal Title
 
 
-## Presentations
+### Published
 
 `1994`
-Presentation Title, Conference, <a href="https://MyWebsite.tld/presentation1">Link to Presentation</a>
+Article Title, Journal Title
+
+`1994`
+Article Title, Journal Title
 
 
 ## Occupation
 
 `Current`
-__Current Job Title__, Current Employer 
+__Current Job Title__, Full time Research Assistant for Dr Ritambhara Singh, 
 
 - Task
 - Task

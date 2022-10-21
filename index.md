@@ -16,5 +16,5 @@ Besides all the research work, I enjoy running, biking and swimming! I did my fi
 
 You can reach out to me on my work email: ghulam_murtaza@brown.edu.
 
-## Current Interests and Projects:
+## Current Interests:
 - Deep Learning, Representation Learning, Computational Biology, Epigenetics and Genomics
