@@ -5,7 +5,8 @@ menutitle: Resume
 ---
 ## Currently
 
-Current Position Description
+I am currently doing my Ph.D in Computer Science at Brown. I am interested in developing computational methods that democratizes the access to genomic research. 
+
 
 ## Education
 
