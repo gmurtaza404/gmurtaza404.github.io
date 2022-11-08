@@ -25,21 +25,22 @@ Bachelor in Computer Science
 ## Appointments
 `June 2022 - Present`
 Guest Researcher - National Institute of Standards and Technology 
+
 `Jan 2019 - Present`
 Research Assistant - Brown University
+
 `Sep 2018 - July 2019`
 Research Assistant - LUMS
+
 `Fall 2017 and Spring 2018`
 Teaching Assistant - LUMS 
+
 `Summer 2016 and Summer 2017`
 Bioinformatics Summer Internship - LUMS
 
 ## Publications
 
 <!-- A list is also available [online](https://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-### Under Submission
-
 `2022`
 Authors: __Ghulam Murtaza__, Justin Wagner, Justin M. Zook, Ritambhara Singh.
 Title: GrapHiC: An integrative graph based approach for imputing missing Hi-C reads
@@ -50,7 +51,6 @@ Authors: __Ghulam Murtaza__, Atishay Jain, Madeline Hughes, Thulasi Varatharajan
 Title: Investigating the performance of deep learning methods for Hi-C resolution improvement
 Currently under submission at PLOS Computational Biology
 
-### Published
 `2021`
 Authors: __Ghulam Murtaza__, Theophilus A. Benson
 Title: WebOptProfiler: Providing performance clarity for Mobile Webpage Optimizations
@@ -80,16 +80,22 @@ Full Merit Scholarship in A Level - LGS JT
 ## Advising Experience
 `Sept 2022 - Present`
 [Wangdrak Dorji](https://www.linkedin.com/in/wangdrak-dorji-1239131b3) - Undergraduate Student Brown University 
+
 `Sept 2022 - Present`
 [Dongjun Shin](https://www.linkedin.com/in/dongjun-shin-20b9a6131/) - Graduate Student at Brown University 
+
 `Jan 2021 - May 2022`
 [Madeline Hughes](https://mhughe10.github.io/) - Research Assistant at Microsoft Research 
+
 `Jan 2022 - May 2022`
 [Qinan Yu](https://www.linkedin.com/in/qinan-yu-9b50471b2/) - Undergraduate Student at Brown University 
+
 `Summer 2021`
 [Thulasi Varatharajan](https://www.linkedin.com/in/thulasi-varatharajan-246bb21a8/) - Undergraduate Student at University of Pittsburgh 
+
 `Sept 2018 - May 2019`
 [Abdul Manan](https://abdul-manaan.github.io/) - Graduate Student at Brown University 
+
 ` Sept 2018 - May 2019`
 [Abrar Tariq](https://www.linkedin.com/in/muhammad-abrar-tariq-ba7b6912b/) - Graduate Student at University of Illinois, Chicago
 
