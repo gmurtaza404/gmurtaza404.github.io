@@ -3,7 +3,6 @@ layout: resume
 menuorder: 3
 menutitle: Resume
 ---
-## Currently
 
 I am currently doing my Ph.D in Computer Science at Brown. I am interested in developing computational methods that democratizes the access to genomic research. 
 
