@@ -48,13 +48,13 @@ Article Title, Journal Title
 ## Occupation
 
 `Current`
-Full time __Research Assistant__ for Dr Ritambhara Singh at Brown University, 
+__Research Assistant__ for Dr Ritambhara Singh at Brown University, 
 
 - Currently working towards developing methods that combine multiple modalities of Genome datasets into a single representation to solve downstream tasks more holistically. 
 
 `Current`
 __Foreign Guest Researcher__, Material Measurement Laboratory, National Institute of Standards and Technology (NIST)
-- Developing a comprehensive set of benchmarks for Hi-C data that partitions the similarity scores 
+- Developing a comprehensive set of benchmarks for Hi-C data that provide a detailed report on how similar two Hi-C datasets with an emphasis on harder to categorize genomic regions.
 
 
 
