@@ -10,18 +10,29 @@ I am currently doing my Ph.D in Computer Science at Brown. I am interested in de
 
 ## Education
 
-`2019 - Current`
+`2019 - Current (Expected 2024)`
 __Brown University__  Department of Computer Science,
-Ph.D in Computer Science
+Ph.D in Computer Science, Advisor Ritambhara Singh
+
+`2019 - 2021`
+__Brown University__  Department of Computer Science,
+Masters in Computer Science, Thesis advisor Ritambhara Singh
 
 `2015 - 2019`
 __Lahore University of Management Sciences__ Department of Computer Science,
 Bachelor in Computer Science
 
-## Awards
-
-`2016, 2017, 2018`
-Dean's Honor List at LUMS, requires CGPA >= 3.6
+## Appointments
+`June 2022 - Present`
+Guest Researcher - National Institute of Standards and Technology 
+`Jan 2019 - Present`
+Research Assistant - Brown University
+`Sep 2018 - July 2019`
+Research Assistant - LUMS
+`Fall 2017 and Spring 2018`
+Teaching Assistant - LUMS 
+`Summer 2016 and Summer 2017`
+Bioinformatics Summer Internship - LUMS
 
 ## Publications
 
@@ -29,35 +40,58 @@ Dean's Honor List at LUMS, requires CGPA >= 3.6
 
 ### Under Submission
 
-`1994`
-Book Title, Journal Title
+`2022`
+Authors: __Ghulam Murtaza__, Justin Wagner, Justin M. Zook, Ritambhara Singh.
+Title: GrapHiC: An integrative graph based approach for imputing missing Hi-C reads
+Currently under submission at RECOMB 2022
 
-`1994`
-Book Title, Journal Title
-
+`2022`
+Authors: __Ghulam Murtaza__, Atishay Jain, Madeline Hughes, Thulasi Varatharajan, Ritambhara Singh.
+Title: Investigating the performance of deep learning methods for Hi-C resolution improvement
+Currently under submission at PLOS Computational Biology
 
 ### Published
+`2021`
+Authors: __Ghulam Murtaza__, Theophilus A. Benson
+Title: WebOptProfiler: Providing performance clarity for Mobile Webpage Optimizations
+ACM HotMobile ’21, February 2021
 
-`1994`
-Article Title, Journal Title
+`2021`
+Authors: Ihsan Ayyub Qazi, Zafar Ayyub Qazi, Theophilus A. Benson, Ehsan Latif, Abdul Manan, __Ghulam Murtaza__, Abrar Tariq
+Title: Mobile Web Browsing Under Memory Pressure
+ACM SIGCOMM CCR, October 2020
 
-`1994`
-Article Title, Journal Title
+`2020`
+Authors: Fahad Rafique Dogar, Ihsan Ayyub Qazi, Ali Raza Tariq, __Ghulam Murtaza__, Abeer Ahmad, Nathan Stocking
+Title: MissIt: Using Missed Calls for Free, Extremely Low Bit-Rate Communication in Developing Regions
+ACM CHI 2020, Honolulu, USA, April 2020
 
+## Awards
 
-## Occupation
+`2016, 2017, 2018`
+Dean's Honor List at LUMS, requires CGPA >= 3.6
 
-`Current`
-__Research Assistant__ for Dr Ritambhara Singh at Brown University, 
+`June 2014`
+Top 18 in National Science Talent Contest Pakistan
 
-- Currently working towards developing methods that combine multiple modalities of Genome datasets into a single representation to solve downstream tasks more holistically. 
+`2013 - 2015`
+Full Merit Scholarship in A Level - LGS JT 
 
-`Current`
-__Foreign Guest Researcher__, Material Measurement Laboratory, National Institute of Standards and Technology (NIST)
-- Developing a comprehensive set of benchmarks for Hi-C data that provide a detailed report on how similar two Hi-C datasets with an emphasis on harder to categorize genomic regions.
-
-
-
+## Advising Experience
+`Sept 2022 - Present`
+[Wangdrak Dorji](https://www.linkedin.com/in/wangdrak-dorji-1239131b3) - Undergraduate Student Brown University 
+`Sept 2022 - Present`
+[Dongjun Shin](https://www.linkedin.com/in/dongjun-shin-20b9a6131/) - Graduate Student at Brown University 
+`Jan 2021 - May 2022`
+[Madeline Hughes](https://mhughe10.github.io/) - Research Assistant at Microsoft Research 
+`Jan 2022 - May 2022`
+[Qinan Yu](https://www.linkedin.com/in/qinan-yu-9b50471b2/) - Undergraduate Student at Brown University 
+`Summer 2021`
+[Thulasi Varatharajan](https://www.linkedin.com/in/thulasi-varatharajan-246bb21a8/) - Undergraduate Student at University of Pittsburgh 
+`Sept 2018 - May 2019`
+[Abdul Manan](https://abdul-manaan.github.io/) - Graduate Student at Brown University 
+` Sept 2018 - May 2019`
+[Abrar Tariq](https://www.linkedin.com/in/muhammad-abrar-tariq-ba7b6912b/) - Graduate Student at University of Illinois, Chicago
 
 <!-- ### Footer
 
