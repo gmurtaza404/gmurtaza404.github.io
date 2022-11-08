@@ -96,7 +96,7 @@ Full Merit Scholarship in A Level - LGS JT
 `Sept 2018 - May 2019`
 [Abdul Manan](https://abdul-manaan.github.io/) - Graduate Student at Brown University 
 
-` Sept 2018 - May 2019`
+`Sept 2018 - May 2019`
 [Abrar Tariq](https://www.linkedin.com/in/muhammad-abrar-tariq-ba7b6912b/) - Graduate Student at University of Illinois, Chicago
 
 <!-- ### Footer
