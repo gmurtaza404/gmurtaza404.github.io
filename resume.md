@@ -39,18 +39,17 @@ Bioinformatics Summer Internship - LUMS
 ## Publications
 
 <!-- A list is also available [online](https://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-`2024`
 Authors: __Ghulam Murtaza__, Byron Butaney, Justin Wagner, Ritambhara Singh.
 
 Title: scGrapHiC: deep learning-based graph deconvolution for Hi-C using single cell gene expression 
 
-In press: [Bioinformatics, Volume 40, Issue Supplement_1](https://doi.org/10.1101/2022.10.19.512942).
+Bioinformatics, Volume 40, Issue Supplement_1 DOI [https://doi.org/10.1101/2022.10.19.512942](https://doi.org/10.1101/2022.10.19.512942).
 
 Authors: __Ghulam Murtaza__, Byron Butaney, Justin Wagner, Ritambhara Singh.
 
 Title: scGrapHiC: deep learning-based graph deconvolution for Hi-C using single cell gene expression 
 
-Presented at [ISMB] (https://doi.org/10.1101/2022.10.19.512942) as a proceeding talk. 
+Presented at [ISMB](https://doi.org/10.1101/2022.10.19.512942) as a proceeding talk. 
 
 
 Authors: __Ghulam Murtaza__, Justin Wagner, Justin M. Zook, Ritambhara Singh.
@@ -61,7 +60,6 @@ Currently under submission at TCBB available at [bioRxiv](https://doi.org/10.110
 
 
 
-`2023`
 Authors: __Ghulam Murtaza__, Atishay Jain, Madeline Hughes, Thulasi Varatharajan, Ritambhara Singh.
 
 Title: Investigating the performance of deep learning methods for Hi-C resolution improvement
@@ -76,15 +74,12 @@ Title: GrapHiC: An integrative graph based approach for imputing missing Hi-C re
 Presented at BioKDD 2023 as a workshop talk. 
 
 
-
-`2021`
 Authors: __Ghulam Murtaza__, Theophilus A. Benson
 
 Title: WebOptProfiler: Providing performance clarity for Mobile Webpage Optimizations
 
 [ACM HotMobile ’21, February 2021](https://doi.org/10.1145/3446382.3449073)
 
-`2021`
 
 Authors: Ihsan Ayyub Qazi, Zafar Ayyub Qazi, Theophilus A. Benson, Ehsan Latif, Abdul Manan, __Ghulam Murtaza__, Abrar Tariq
 
@@ -92,7 +87,6 @@ Title: Mobile Web Browsing Under Memory Pressure
 
 [ACM SIGCOMM CCR, October 2020](https://doi.org/10.1145/3431832.3431837)
 
-`2020`
 Authors: Fahad Rafique Dogar, Ihsan Ayyub Qazi, Ali Raza Tariq, __Ghulam Murtaza__, Abeer Ahmad, Nathan Stocking
 
 Title: MissIt: Using Missed Calls for Free, Extremely Low Bit-Rate Communication in 
