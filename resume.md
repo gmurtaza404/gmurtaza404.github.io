@@ -4,12 +4,11 @@ menuorder: 3
 menutitle: Resume
 ---
 
-I am currently doing my Ph.D in Computer Science at Brown. I am interested in developing computational methods that democratizes the access to genomic research. 
-
+I am currently doing my Ph.D in Computer Science at Brown. I am interested in developing deep-learning based methods to connect structural and functional genomics. 
 
 ## Education
 
-`2019 - Current (Expected 2024)`
+`2019 - Current (Expected 2025 Spring)`
 __Brown University__  Department of Computer Science,
 Ph.D in Computer Science, Advisor Ritambhara Singh
 
@@ -22,7 +21,7 @@ __Lahore University of Management Sciences__ Department of Computer Science,
 Bachelor in Computer Science
 
 ## Appointments
-`June 2022 - Present`
+`June 2022 - May 2023`
 Guest Researcher - National Institute of Standards and Technology 
 
 `Jan 2019 - Present`
@@ -40,30 +39,66 @@ Bioinformatics Summer Internship - LUMS
 ## Publications
 
 <!-- A list is also available [online](https://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-`2022`
-Authors: __Ghulam Murtaza__, Justin Wagner, Justin M. Zook, Ritambhara Singh.
-Title: GrapHiC: An integrative graph based approach for imputing missing Hi-C reads
-Currently under submission at RECOMB 2022
+`2024`
+Authors: __Ghulam Murtaza__, Byron Butaney, Justin Wagner, Ritambhara Singh.
 
-`2022`
+Title: scGrapHiC: deep learning-based graph deconvolution for Hi-C using single cell gene expression 
+
+In press: [Bioinformatics, Volume 40, Issue Supplement_1](https://doi.org/10.1101/2022.10.19.512942).
+
+Authors: __Ghulam Murtaza__, Byron Butaney, Justin Wagner, Ritambhara Singh.
+
+Title: scGrapHiC: deep learning-based graph deconvolution for Hi-C using single cell gene expression 
+
+Presented at [ISMB] (https://doi.org/10.1101/2022.10.19.512942) as a proceeding talk. 
+
+
+Authors: __Ghulam Murtaza__, Justin Wagner, Justin M. Zook, Ritambhara Singh.
+
+Title: GrapHiC: An integrative graph based approach for imputing missing Hi-C reads
+
+Currently under submission at TCBB available at [bioRxiv](https://doi.org/10.1101/2022.10.19.512942)
+
+
+
+`2023`
 Authors: __Ghulam Murtaza__, Atishay Jain, Madeline Hughes, Thulasi Varatharajan, Ritambhara Singh.
+
 Title: Investigating the performance of deep learning methods for Hi-C resolution improvement
-Currently under submission at PLOS Computational Biology
+
+In Press: [Genes 2024, 15, 54](https://doi.org/10.3390/genes15010054), 
+
+
+Authors: __Ghulam Murtaza__, Justin Wagner, Justin M. Zook, Ritambhara Singh.
+
+Title: GrapHiC: An integrative graph based approach for imputing missing Hi-C reads
+
+Presented at BioKDD 2023 as a workshop talk. 
+
+
 
 `2021`
 Authors: __Ghulam Murtaza__, Theophilus A. Benson
+
 Title: WebOptProfiler: Providing performance clarity for Mobile Webpage Optimizations
-ACM HotMobile ’21, February 2021
+
+[ACM HotMobile ’21, February 2021](https://doi.org/10.1145/3446382.3449073)
 
 `2021`
+
 Authors: Ihsan Ayyub Qazi, Zafar Ayyub Qazi, Theophilus A. Benson, Ehsan Latif, Abdul Manan, __Ghulam Murtaza__, Abrar Tariq
+
 Title: Mobile Web Browsing Under Memory Pressure
-ACM SIGCOMM CCR, October 2020
+
+[ACM SIGCOMM CCR, October 2020](https://doi.org/10.1145/3431832.3431837)
 
 `2020`
 Authors: Fahad Rafique Dogar, Ihsan Ayyub Qazi, Ali Raza Tariq, __Ghulam Murtaza__, Abeer Ahmad, Nathan Stocking
-Title: MissIt: Using Missed Calls for Free, Extremely Low Bit-Rate Communication in Developing Regions
-ACM CHI 2020, Honolulu, USA, April 2020
+
+Title: MissIt: Using Missed Calls for Free, Extremely Low Bit-Rate Communication in 
+Developing Regions
+
+[ACM CHI 2020, Honolulu, USA, April 2020](https://doi.org/10.1145/3313831.3376259)
 
 ## Awards
 
@@ -77,10 +112,16 @@ Top 18 in National Science Talent Contest Pakistan
 Full Merit Scholarship in A Level - LGS JT 
 
 ## Advising Experience
-`Sept 2022 - Present`
+`Jan 2024 - Present`
+Winston Li - Undergraduate Student Brown University 
+
+`Sept 2023 - Present`
+[Byron Butaney](https://www.linkedin.com/in/byron-butaney/) - Undergraduate Student Brown University 
+
+`Sept 2022 - May 2024`
 [Wangdrak Dorji](https://www.linkedin.com/in/wangdrak-dorji-1239131b3) - Undergraduate Student Brown University 
 
-`Sept 2022 - Present`
+`Sept 2022 - Dec 2022`
 [Dongjun Shin](https://www.linkedin.com/in/dongjun-shin-20b9a6131/) - Graduate Student at Brown University 
 
 `Jan 2021 - May 2022`

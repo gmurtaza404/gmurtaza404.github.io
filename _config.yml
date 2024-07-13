@@ -8,7 +8,7 @@ logo: # filename of a logo image that has been placed into your images directory
 owner:
   name: Ghulam Murtaza
   avatar: bio-photo.jpg
-  bio: "I am a fourth year Ph.D student at Brown trying to democratize the access to quality genomics research"
+  bio: "I am a fifth year Ph.D student at Brown developing graph neural networks for genomics"
   email: #emailaddress
   # Do not include the @ symbol in your Twitter username
   twitter: #username
