@@ -77,17 +77,17 @@
 - title: Currently Advising
   type: list
   contents:
-    - **Winston Li** - We are developing  a continuous learning framework that imposes strict structure in the latent space to improve meta-label learning when extrapolating to unseen tasks.
-    - **Byron Butaney** - We are building a benchmarking framework that tests whether the Large Language Model (LLM) style scRNA-seq models can correctly assemble cells based on i) cell-cycle phases (structure) ii) spatial positing and iii) temporal cell-differentiation trajectories.
-    - **Wangdrak Dorji** -  We are developing a novel protein representation that embeds dynamical properties of proteins through Anistropic Network Model (ANM). We show that by including dynamical properties we can improve protein-protein interactions accuracy performance in comparison to representations that rely solely on structure or sequence.
+    - __Winston Li__ - We are developing  a continuous learning framework that imposes strict structure in the latent space to improve meta-label learning when extrapolating to unseen tasks.
+    - __Byron Butaney__ - We are building a benchmarking framework that tests whether the Large Language Model (LLM) style scRNA-seq models can correctly assemble cells based on i) cell-cycle phases (structure) ii) spatial positing and iii) temporal cell-differentiation trajectories.
+    - __Wangdrak Dorji__ -  We are developing a novel protein representation that embeds dynamical properties of proteins through Anistropic Network Model (ANM). We show that by including dynamical properties we can improve protein-protein interactions accuracy performance in comparison to representations that rely solely on structure or sequence.
 
 - title: Past Mentorship Experience
   type: list
   contents:
-    - **Madeline Hughes** - Pre-Doctoral Research Assistant at Microsoft Research
-    - **Thulasi Varatharajan** - Masters student at North Eastern
-    - **Abdul Manan** - Graduate Student at Brown University
-    - **Abrar Tariq** - Software Reliability Engineer (SRE) at Bytedance
+    - __Madeline Hughes__ - Pre-Doctoral Research Assistant at Microsoft Research
+    - __Thulasi Varatharajan__ - Masters student at North Eastern
+    - __Abdul Manan__ - Graduate Student at Brown University
+    - __Abrar Tariq__ - Software Reliability Engineer (SRE) at Bytedance
 
 - title: Teaching Experience
   type: time_table
