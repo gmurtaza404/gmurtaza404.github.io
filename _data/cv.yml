@@ -64,14 +64,14 @@
 - title: Invited talks and Poster Presentations
   type: list
   contents:
-    - **Talk at ISMB 2024** - scGrapHiC Deep learning-based graph deconvolution for Hi-C using single cell gene expression 
-    - **Poster at RECOMB 2024** - scGrapHiC Deep learning-based graph deconvolution for Hi-C using single cell gene expression 
-    - **Poster at WABI 2023** - GEGGE A Graph Encoder for Generalized Genomics Embeddings
-    - **Talk at BioKDD 2023** - GrapHiC An integrative graph based approach for imputing missing Hi-C reads
-    - **Poster at ISMB 2023** - GrapHiC An integrative graph based approach for imputing missing Hi-C reads
-    - **Poster at GRC 2023** - GrapHiC An integrative graph based approach for imputing missing Hi-C reads
-    - **Poster at MLCB 2022** - GrapHiC An integrative graph based approach for imputing missing Hi-C reads
-    - **Flash Talk at CONEXT 2020** - WebOptProfiler Providing performance clarity for Mobile Webpage Optimizations
+    - __Talk at ISMB 2024__ - scGrapHiC Deep learning-based graph deconvolution for Hi-C using single cell gene expression 
+    - __Poster at RECOMB 2024__ - scGrapHiC Deep learning-based graph deconvolution for Hi-C using single cell gene expression 
+    - __Poster at WABI 2023__ - GEGGE A Graph Encoder for Generalized Genomics Embeddings
+    - __Talk at BioKDD 2023__ - GrapHiC An integrative graph based approach for imputing missing Hi-C reads
+    - __Poster at ISMB 2023__ - GrapHiC An integrative graph based approach for imputing missing Hi-C reads
+    - __Poster at GRC 2023__ - GrapHiC An integrative graph based approach for imputing missing Hi-C reads
+    - __Poster at MLCB 2022__ - GrapHiC An integrative graph based approach for imputing missing Hi-C reads
+    - __Flash Talk at CONEXT 2020__ - WebOptProfiler Providing performance clarity for Mobile Webpage Optimizations
 
 
 - title: Currently Advising
