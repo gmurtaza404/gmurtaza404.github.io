@@ -11,7 +11,7 @@
   year={2024}, 
   month={Jun}, 
   pages={i490 - i500},
-  image={assets/img/scgraphic.jpeg},
+  image={/assets/img/scgraphic.jpeg},
   html={https://academic.oup.com/bioinformatics/article/40/Supplement_1/i490/7700876},
   code={https://github.com/rsinghlab/scGrapHiC},
   abstract={Single-cell Hi-C (scHi-C) protocol helps identify cell-type-specific chromatin interactions and sheds light on cell differentiation and disease progression. Despite providing crucial insights, scHi-C data is often underutilized due to the high cost and the complexity of the experimental protocol. We present a deep learning framework, scGrapHiC, that predicts pseudo-bulk scHi-C contact maps using pseudo-bulk scRNA-seq data. Specifically, scGrapHiC performs graph deconvolution to extract genome-wide single-cell interactions from a bulk Hi-C contact map using scRNA-seq as a guiding signal. Our evaluations show that scGrapHiC, trained on seven cell-type co-assay datasets, outperforms typical sequence encoder approaches. For example, scGrapHiC achieves a substantial improvement of in recovering cell-type-specific Topologically Associating Domains over the baselines. It also generalizes to unseen embryo and brain tissue samples. scGrapHiC is a novel method to generate cell-type-specific scHi-C contact maps using widely available genomic signals that enables the study of cell-type-specific chromatin interactions.}
@@ -25,7 +25,7 @@
   author={Murtaza, Ghulam and Wagner, Justin and Zook, Justin M. and Singh, Ritambhara}, 
   year={2022}, 
   month={Oct},
-  image={assets/img/Graphic.png},
+  image={/assets/img/Graphic.png},
   html={https://www.biorxiv.org/content/10.1101/2022.10.19.512942v4},
   code={https://github.com/rsinghlab/GrapHiC},
   abstract={Hi-C experiments allow researchers to study and understand the 3D genome organization and its regulatory function. Unfortunately, sequencing costs and technical constraints severely restrict access to high-quality Hi-C data for many cell types. Existing frameworks rely on a sparse Hi-C dataset or cheaper-to-acquire ChIP-seq data to predict Hi-C contact maps with high read coverage. However, these methods fail to generalize to sparse or cross-cell-type inputs because they do not account for the contributions of epigenomic features or the impact of the structural neighborhood in predicting Hi-C reads. We propose GrapHiC, which combines Hi-C and ChIP-seq in a graph representation, allowing more accurate embedding of structural and epigenomic features. Each node represents a binned genomic region, and we assign edge weights using the observed Hi-C reads. Additionally, we embed ChIP-seq and relative positional information as node attributes, allowing our representation to capture structural neighborhoods and the contributions of proteins and their modifications for predicting Hi-C reads. Our evaluations show that GrapHiC generalizes better than the current state-of-the-art on cross-cell-type settings and sparse Hi-C inputs. Moreover, we can utilize our framework to impute Hi-C reads even when no Hi-C contact map is available, thus making high-quality Hi-C data more accessible for many cell types.}
@@ -41,7 +41,7 @@
   year={2023}, 
   month={Dec}, 
   pages={54},
-  image={assets/img/hicy.png},
+  image={/assets/img/hicy.png},
   html={https://www.mdpi.com/2073-4425/15/1/54},
   code={https://github.com/rsinghlab/Hi-CY},
   abstract={Hi-C is a widely used technique to study the 3D organization of the genome. Due to its high sequencing cost, most of the generated datasets are of a coarse resolution, which makes it impractical to study finer chromatin features such as Topologically Associating Domains (TADs) and chromatin loops. Multiple deep learning-based methods have recently been proposed to increase the resolution of these datasets by imputing Hi-C reads (typically called upscaling). However, the existing works evaluate these methods on either synthetically downsampled datasets, or a small subset of experimentally generated sparse Hi-C datasets, making it hard to establish their generalizability in the real-world use case. We present our framework—Hi-CY—that compares existing Hi-C resolution upscaling methods on seven experimentally generated low-resolution Hi-C datasets belonging to various levels of read sparsities originating from three cell lines on a comprehensive set of evaluation metrics. Hi-CY also includes four downstream analysis tasks, such as TAD and chromatin loops recall, to provide a thorough report on the generalizability of these methods. We observe that existing deep learning methods fail to generalize to experimentally generated sparse Hi-C datasets, showing a performance reduction of up to 57%. As a potential solution, we find that retraining deep learning-based methods with experimentally generated Hi-C datasets improves performance by up to 31%. More importantly, Hi-CY shows that even with retraining, the existing deep learning-based methods struggle to recover biological features such as chromatin loops and TADs when provided with sparse Hi-C datasets. Our study, through the Hi-CY framework, highlights the need for rigorous evaluation in the future. We identify specific avenues for improvements in the current deep learning-based Hi-C upscaling methods, including but not limited to using experimentally generated datasets for training.}
@@ -54,7 +54,7 @@
   author={Murtaza, Ghulam and Benson, Theophilus A.}, 
   year={2021}, 
   month={Feb},
-  image={assets/img/weboptprofiler.png},
+  image={/assets/img/weboptprofiler.png},
   html={https://dl.acm.org/doi/10.1145/3446382.3449073},
   code={https://github.com/Brown-NSG/WebPerfClarity},
   abstract={Despite decades of research on mobile webpage optimizations, little is known about how these optimizations interoperate. Moreover, there has been little systematic work to understand the scenarios wherein combinations of these optimizations excel. Without a comprehensive understanding of how these optimizations compose with each other and under what conditions they excel, operators cannot determine which optimizations to adopt, and, similarly, developers do not know where to focus their efforts. In this paper, we argue that developers should be required to evaluate and characterize the broader interactions between their proposed optimizations and other optimizations - this is in addition to demonstrating the potential benefits of their approach. To aide developers in characterizing these broader interactions, we propose an analytical model which decomposes web optimizations into virtual speedup functions that operate on well-understood browser processing phases (e.g., processing, rendering, layout, etc., for an object) and we present a web browser-oriented causal profiler which empirically explores interactions between optimizations by using their analytical models to speed up different parts of the Browser during a page load. Our system, WebOptProfiler, identifies and addresses practical issues in extending causal profiling to the webpage optimization domain and provides an algorithm for extracting an analytical model from readily available browser traces.}
@@ -71,7 +71,7 @@
   year={2020}, 
   month={Oct}, 
   pages={35 - 48},
-  image={assets/img/memory-pressure.png},
+  image={/assets/img/memory-pressure.png},
   html={https://dl.acm.org/doi/abs/10.1145/3431832.3431837},
   code={},
   abstract={Mobile devices have become the primary mode of Internet access. Yet, differences in mobile hardware resources, such as device memory, coupled with the rising complexity of Web pages can lead to widely different quality of experience for users. In this work, we analyze how device memory usage affects Web browsing performance. We quantify the memory footprint of popular Web pages over different mobile devices, mobile browsers, and Android versions, analyze the induced memory distribution across different browser components (e.g., JavaScript engine and compositor), investigate how performance gets impacted under memory pressure and propose optimizations to reduce the memory footprint of Web browsing. We show that these optimizations can improve performance and reduce chances of browser crashes in low memory scenarios.}
@@ -84,7 +84,7 @@
   author={Dogar, Fahad R. and Qazi, Ihsan Ayyub and Tariq, Ali Raza and Murtaza, Ghulam and Ahmad, Abeer and Stocking, Nathan}, 
   year={2020}, 
   month={Apr},
-  image={assets/img/missit.png},
+  image={/assets/img/missit.png},
   html={https://dl.acm.org/doi/10.1145/3313831.3376259},
   code={},
   abstract={Mobile devices have become the primary mode for Internet access in developing countries. Yet typical data plans and SMS costs can be overwhelming for low income users in these countries. In this paper, we explore the design and usability of a free but extremely low bit rate communication channel to address this challenge. We propose MissIt, a data communication channel that uses missed calls to transmit messages between phones, thereby sacrificing performance in exchange for low cost. While the data rate of MissIt is extremely low (<1bps), our prototype implementation and small scale user studies explore the feasibility of this idea for different types of messaging scenarios. Our results show that MissIt could be a viable option for messaging scenarios that require short, pre-determined responses (e.g., survey questions) while for traditional SMS-style messaging, a suitable user interface and other customizations are likely required to make it a viable option for users.}
