@@ -2,17 +2,14 @@
   type: time_table
   contents:
     - title: PhD
-      institution: Brown University
-      year: 2019 - 2025 Spring (Expected graduation)
-      GPA: 4.0/4.0
+      institution: Brown University, GPA 4.0/4.0, Expected Graduation Spring 2025
+      year: 2019 - 2025 
     - title: Master's
-      institution: Brown University
+      institution: Brown University, GPA 4.0/4.0
       year: 2019 - 2021
-      GPA: 4.0/4.0
-    - title: Bachleor's
-      institution: Lahore University of Management Sciences
+    - title: Bachelor's
+      institution: Lahore University of Management Sciences, GPA 3.83/4.0
       year: 2015 - 2019
-      GPA: 3.83/4.0
 
 - title: Academic Interests
   type: nested_list
@@ -53,7 +50,7 @@
     
     - title: Research Intern
       institution: Lahore University of Management Sciences
-      year: Summers of 2017 and 2016
+      year: 2017 and 2016
       description: Assisted members of Bioinformatics lab under supervision of Dr Aziz Mithani on various research projects to improve the memory footprint or runtime.
 
 - title: Skills
@@ -67,30 +64,30 @@
 - title: Invited talks and Poster Presentations
   type: list
   contents:
-    - Talk at ISMB 2024 - scGrapHiC Deep learning-based graph deconvolution for Hi-C using single cell gene expression 
-    - Poster at RECOMB 2024 - scGrapHiC Deep learning-based graph deconvolution for Hi-C using single cell gene expression 
-    - Poster at WABI 2023 - GEGGE A Graph Encoder for Generalized Genomics Embeddings
-    - Talk at BioKDD 2023 - GrapHiC An integrative graph based approach for imputing missing Hi-C reads
-    - Poster at ISMB 2023 - GrapHiC An integrative graph based approach for imputing missing Hi-C reads
-    - Poster at GRC 2023 - GrapHiC An integrative graph based approach for imputing missing Hi-C reads
-    - Poster at MLCB 2022 - GrapHiC An integrative graph based approach for imputing missing Hi-C reads
-    - Flash Talk at CONEXT 2020 - WebOptProfiler Providing performance clarity for Mobile Webpage Optimizations
+    - **Talk at ISMB 2024** - scGrapHiC Deep learning-based graph deconvolution for Hi-C using single cell gene expression 
+    - **Poster at RECOMB 2024** - scGrapHiC Deep learning-based graph deconvolution for Hi-C using single cell gene expression 
+    - **Poster at WABI 2023** - GEGGE A Graph Encoder for Generalized Genomics Embeddings
+    - **Talk at BioKDD 2023** - GrapHiC An integrative graph based approach for imputing missing Hi-C reads
+    - **Poster at ISMB 2023** - GrapHiC An integrative graph based approach for imputing missing Hi-C reads
+    - **Poster at GRC 2023** - GrapHiC An integrative graph based approach for imputing missing Hi-C reads
+    - **Poster at MLCB 2022** - GrapHiC An integrative graph based approach for imputing missing Hi-C reads
+    - **Flash Talk at CONEXT 2020** - WebOptProfiler Providing performance clarity for Mobile Webpage Optimizations
 
 
 - title: Currently Advising
   type: list
   contents:
-    - Winston Li - We are developing  a continuous learning framework that imposes strict structure in the latent space to improve meta-label learning when extrapolating to unseen tasks.
-    - Byron Butaney - We are building a benchmarking framework that tests whether the Large Language Model (LLM) style scRNA-seq models can correctly assemble cells based on i) cell-cycle phases (structure) ii) spatial positing and iii) temporal cell-differentiation trajectories.
-    - Wangdrak Dorji -  We are developing a novel protein representation that embeds dynamical properties of proteins through Anistropic Network Model (ANM). We show that by including dynamical properties we can improve protein-protein interactions accuracy performance in comparison to representations that rely solely on structure or sequence.
+    - **Winston Li** - We are developing  a continuous learning framework that imposes strict structure in the latent space to improve meta-label learning when extrapolating to unseen tasks.
+    - **Byron Butaney** - We are building a benchmarking framework that tests whether the Large Language Model (LLM) style scRNA-seq models can correctly assemble cells based on i) cell-cycle phases (structure) ii) spatial positing and iii) temporal cell-differentiation trajectories.
+    - **Wangdrak Dorji** -  We are developing a novel protein representation that embeds dynamical properties of proteins through Anistropic Network Model (ANM). We show that by including dynamical properties we can improve protein-protein interactions accuracy performance in comparison to representations that rely solely on structure or sequence.
 
 - title: Past Mentorship Experience
   type: list
   contents:
-    - Madeline Hughes - Pre-Doctoral Research Assistant at Microsoft Research
-    - Thulasi Varatharajan - Masters student at North Eastern
-    - Abdul Manan - Graduate Student at Brown University
-    - Abrar Tariq - Software Reliability Engineer (SRE) at Bytedance
+    - **Madeline Hughes** - Pre-Doctoral Research Assistant at Microsoft Research
+    - **Thulasi Varatharajan** - Masters student at North Eastern
+    - **Abdul Manan** - Graduate Student at Brown University
+    - **Abrar Tariq** - Software Reliability Engineer (SRE) at Bytedance
 
 - title: Teaching Experience
   type: time_table
