@@ -4,7 +4,7 @@ title: WebOptProfiler
 description: Causal model for web page loading process
 img: assets/img/weboptprofiler.png
 importance: 4
-category: Brown University
+category: Brown
 related_publications: false
 ---
 

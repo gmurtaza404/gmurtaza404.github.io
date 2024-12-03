@@ -4,7 +4,7 @@ title: Ark data analysis
 description: Measuring internet path length fluctuations
 img: assets/img/memory-pressure.png
 importance: 7
-category: Lahore University of Management Sciences
+category: LUMS
 related_publications: false
 ---
 

@@ -4,7 +4,7 @@ title: MissIt
 description: Low bit rate network stack
 img: assets/img/missit.png
 importance: 5
-category: Lahore University of Management Sciences
+category: LUMS
 related_publications: false
 ---
 

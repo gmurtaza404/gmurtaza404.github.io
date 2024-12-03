@@ -4,7 +4,7 @@ title: Random and sparse attention for GNNs
 description: Exploring Random and Sparse Attention Mechanisms for GNNs
 img: assets/img/random_attention_GAT.png
 importance: 8
-category: Brown University
+category: Brown
 related_publications: false
 ---
 
