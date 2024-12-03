@@ -4,7 +4,7 @@ title: Memory bottle neck analysis
 description: Measuring the effect of high memory utilization on QoE in low-end mobile devices
 img: assets/img/memory-pressure.png
 importance: 6
-category: LUMS
+category: work
 related_publications: false
 ---
 

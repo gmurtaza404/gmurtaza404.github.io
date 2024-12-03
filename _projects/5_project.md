@@ -4,7 +4,7 @@ title: MissIt
 description: Low bit rate network stack
 img: assets/img/missit.png
 importance: 5
-category: LUMS
+category: work
 related_publications: false
 ---
 

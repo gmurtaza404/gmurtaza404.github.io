@@ -4,7 +4,7 @@ title: Hi-Cy
 description: Benchmarking Hi-C resolution improvement frameworks
 img: assets/img/graphic.png
 importance: 3
-category: Brown
+category: work
 related_publications: false
 ---
 
