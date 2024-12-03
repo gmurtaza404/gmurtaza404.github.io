@@ -4,7 +4,7 @@ title: GrapHiC
 description: Predicting high quality bulk Hi-C contact maps from sparse Hi-C contact maps
 img: assets/img/graphic.png
 importance: 2
-category: work
+category: Brown University
 related_publications: false
 ---
 

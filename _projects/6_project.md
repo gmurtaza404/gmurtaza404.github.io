@@ -1,10 +1,10 @@
 ---
 layout: page
-title: MissIt
+title: Memory bottle neck analysis
 description: Measuring the effect of high memory utilization on QoE in low-end mobile devices
 img: assets/img/memory-pressure.png
 importance: 6
-category: work
+category: Lahore University of Management Sciences
 related_publications: false
 ---
 

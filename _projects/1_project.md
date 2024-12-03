@@ -4,7 +4,7 @@ title: scGrapHiC
 description: Predicting pseudo-bulk scHi-C from scRNA-seq
 img: assets/img/scgraphic.jpeg
 importance: 1
-category: work
+category: Brown University
 related_publications: false
 ---
 
