@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Hi-Cy
-description: Benchmarking Hi-C resolution improvement frameworks
+title: GrapHiC
+description: Predicting high-quality Hi-C contact maps from sparse contact maps
 img: assets/img/graphic.png
-importance: 3
+importance: 2
 category: work
 related_publications: false
 ---
@@ -14,9 +14,12 @@ The code is available at: https://github.com/rsinghlab/GrapHiC
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/graphic.png" title="GrapHiC architecture" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/graphic.png" title="Hi-Cy workflow" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Inputs and pre-processing pipeline:  In this portion of the pipeline, we normalize Hi-C contact maps and create a Hi-C graph using Hi-C data as its edges and genomic loci as the nodes, with auxiliary genomic signals and positional encodings as node attributes. GrapHiC: we use the sparse input Hi-C graph to generate a denser Hi-C graph. The Graph encoder takes in the Hi-C graph and generates latent node representations that our graph decoder utilizes to impute a dense Hi-C contact matrix.
+    A: Inputs and pre-processing pipeline: In this portion of the pipeline, we normalize Hi-C contact maps and create a Hi-C graph using Hi-C
+    data as its edges and genomic loci as the nodes, with auxiliary genomic signals and positional encodings as node attributes. B: GrapHiC: we use the
+    sparse input Hi-C graph to generate a denser Hi-C graph. The Graph encoder takes in the Hi-C graph and generates latent node representations
+    that our graph decoder utilizes to impute a dense Hi-C contact matrix.
 </div>

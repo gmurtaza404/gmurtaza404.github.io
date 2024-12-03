@@ -1,9 +1,9 @@
 ---
 layout: page
-title: GrapHiC
-description: Predicting high quality bulk Hi-C contact maps from sparse Hi-C contact maps
-img: assets/img/graphic.png
-importance: 2
+title: Hi-Cy
+description: Benchmarking Hi-C resolution improvement frameworks
+img: assets/img/hicy.png
+importance: 3
 category: work
 related_publications: false
 ---
