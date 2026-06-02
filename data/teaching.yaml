@@ -1,0 +1,19 @@
+# Teaching (courses) — drives site/teaching.html and cv/generated/teaching.tex
+# Each entry:
+#   course:      course name (with code)
+#   role:        e.g. Teaching Assistant
+#   institution: school
+#   term:        e.g. Spring 2018
+#   enrollment:  optional integer (shown as "Enrollment: N students")
+
+- course: "Data Structures (CS202/EE202)"
+  role: "Teaching Assistant"
+  institution: "Lahore University of Management Sciences"
+  term: "Spring 2018"
+  enrollment: 150
+
+- course: "Computational Problem Solving (CS100)"
+  role: "Teaching Assistant"
+  institution: "Lahore University of Management Sciences"
+  term: "Fall 2017"
+  enrollment: 200

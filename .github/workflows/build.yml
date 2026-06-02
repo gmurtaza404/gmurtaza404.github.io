@@ -1,0 +1,57 @@
+name: Build & Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python deps
+        run: pip install -r requirements.txt
+
+      # Generates cv/generated/*.tex (for the CV) and site/*.html (the website).
+      - name: Generate site + CV fragments
+        run: python build.py
+
+      # Compiles cv/cv.tex -> cv/cv.pdf using a full TeX Live (has res.cls, pifont).
+      - name: Compile CV
+        uses: xu-cheng/latex-action@v3
+        with:
+          working_directory: cv
+          root_file: cv.tex
+
+      - name: Stage CV into site
+        run: cp cv/cv.pdf site/cv.pdf
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

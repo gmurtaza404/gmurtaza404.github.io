@@ -1,0 +1,24 @@
+# About / landing page content — drives site/index.html
+
+name: "Ghulam Murtaza"
+tagline: "Postdoctoral Researcher, Department of Genome Sciences, University of Washington"
+
+# Short research-interest line shown under the tagline.
+interests: "3D Genome Organization · Machine/Deep Learning · Genomics"
+
+# Bio: a list of paragraphs.
+bio:
+  - "I am a postdoctoral researcher in the Department of Genome Sciences at the University of Washington, working with Prof. William Stafford Noble. During my postdoc, I am developing methods to study the role of 3D genome organization in gene regulation. I am building foundation model for Hi-C data that is robust to many sources of missingness. I am using this new foundation model to study the rules that govern gene regulation at both bulk and single-cell resolution."
+  - "My earlier work developed graph-based deep-learning methods for the 3D genome. I created GrapHiC, which imputes missing Hi-C reads by integrating epigenomic signals into a graph representation, and scGrapHiC, which recovers cell-type-specific pseudobulk single-cell Hi-C (scHi-C) contact matrices from a bulk Hi-C measurement and widely available single-cell gene expression."
+  - "I completed my Ph.D. in Computer Science at Brown University with Dr. Ritambhara Singh, where my dissertation connected sequential and structural genomics through graph-based representations. Earlier, I earned my B.S. in Computer Science from the Lahore University of Management Sciences."
+
+# Optional profile photo (drop a file at site/assets/ and set the filename).
+photo: "assets/photo.jpg"
+
+# Links shown on the About page. Order is preserved; remove any you don't want.
+links:
+  Email: "mailto:gmurtaza@uw.edu"
+  "Google Scholar": "https://scholar.google.com/citations?user=LIMH96sAAAAJ&hl=en"
+  GitHub: "https://github.com/gmurtaza404"
+  LinkedIn: "https://www.linkedin.com/in/ghulam-murtaza-352251256"
+  "Lab Website": "https://noble.gs.washington.edu/"

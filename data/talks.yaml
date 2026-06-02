@@ -1,0 +1,43 @@
+# Talks & posters — single source for site/talks.html and cv/generated/{talks,posters}.tex
+# Each entry:
+#   title:    presentation title
+#   venue:    full venue text (include year as you want it shown)
+#   type:     talk | poster
+#   date:     YYYY or YYYY-MM   (used for sorting, newest first)
+#   location: optional, shown on the site
+#   links:    optional { slides: url, poster: url, video: url }
+
+- title: "scGrapHiC: Deep learning-based graph deconvolution for Hi-C using single cell gene expression"
+  venue: "Intelligent Systems for Molecular Biology (ISMB) 2024"
+  type: talk
+  date: 2024
+
+- title: "scGrapHiC: Deep learning-based graph deconvolution for Hi-C using single cell gene expression"
+  venue: "Research in Computational Molecular Biology (RECOMB) 2024"
+  type: poster
+  date: 2024
+
+- title: "GEGGE: A Graph Encoder for Generalized Genomics Embeddings"
+  venue: "Workshop on Algorithms in Bioinformatics (WABI), ACM-BCB 2023"
+  type: poster
+  date: 2023
+
+- title: "GrapHiC: An integrative graph based approach for imputing missing Hi-C reads"
+  venue: "Intelligent Systems for Molecular Biology (ISMB) 2023"
+  type: poster
+  date: 2023
+
+- title: "GrapHiC: An integrative graph based approach for imputing missing Hi-C reads"
+  venue: "Genome Architecture in Cell Fate and Disease Gordon Research Seminar 2023"
+  type: poster
+  date: 2023
+
+- title: "GrapHiC: An integrative graph based approach for imputing missing Hi-C reads"
+  venue: "Machine Learning in Computational Biology (MLCB) 2023"
+  type: poster
+  date: 2023
+
+- title: "WebOptProfiler: Providing performance clarity for Mobile Webpage Optimizations"
+  venue: "International Conference on emerging Networking EXperiments and Technologies (CoNEXT) 2020"
+  type: talk
+  date: 2020

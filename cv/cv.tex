@@ -1,0 +1,149 @@
+\documentclass[margin,line]{res}
+
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+
+
+% if using pdflatex:
+%\setlength{\pdfpagewidth}{\paperwidth}
+%\setlength{\pdfpageheight}{\paperheight}
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\usepackage{color}
+\def\S{\textcolor{magenta}{Contribution:} Led the project and advised the trainees solely on the project. Contributed to project planning and management, discussions, manuscript preparation and submission.}
+\def\C{\textcolor{cyan}{Contribution:} Co-led the project and co-advised the trainees on the project. Contributed to project planning and management, discussions, manuscript preparation and submission.}
+\def\A{\textcolor{blue}{Contribution:} Contributed to project implementations, planning and management, discussions, and manuscript preparation.}
+
+\begin{document}
+
+\name{Ghulam Murtaza \vspace*{.1in}}
+
+\begin{resume}
+\section{\sc Position}
+Postdoctoral Researcher
+\section{\sc Department}
+Genome Sciences
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{2in}p{4in}}
+3720 15th Ave NE             & {\it Phone:}  (401) 218-1733 \\
+William H. Foege Hall & {\it E-mail:}  gmurtaza@uw.edu\\
+University of Washington      & {\it Website:} gmurtaza404.github.io \\
+Seattle, WA 98105   & {\it Lab Website:} noble.gs.washington.edu/\\
+\end{tabular}
+
+
+\section{\sc Research Interests}
+Representation Learning, Machine/Deep Learning, Genomics
+
+\section{\sc Education}
+{\bf Brown University}, Providence, Rhode Island, USA\\
+%{\em Department of Statistics}
+\vspace*{-.1in}
+\begin{list1}
+\item[] Ph.D., Computer Science, May 2025
+\begin{list2}
+\vspace*{.05in}
+\item Dissertation Topic: Connecting sequential and structural genomics through graph based representations
+\item Advisor:  Dr. Ritambhara Singh
+\end{list2}
+\vspace*{.05in}
+\item[] M.S., Computer Science, May 2021
+\end{list1}
+
+{\bf Lahore University of Management Sciences}, Lahore, Pakistan\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] B.S., Computer Science,  May 2019
+\end{list1}
+
+\section{\sc Professional Appointments}
+{\bf University of Washington}, Seattle, Washington USA
+
+\vspace{-.3cm}
+{\em Postdoctoral Researcher} \hfill {\bf July, 2025 - Present}
+
+{\bf Brown University}, Providence, Rhode Island USA
+
+\vspace{-.3cm}
+{\em Research Assistant} \hfill {\bf September, 2019 - June 2025}
+
+{\bf National Institute of Standards and Technology}, Gaithersburg, Maryland USA
+
+\vspace{-.3cm}
+{\em Guest Researcher} \hfill {\bf June, 2022 - May 2023}
+
+{\bf Lahore University of Management Sciences}, Lahore, Pakistan
+
+\vspace{-.3cm}
+{\em Research Assistant, Computer Science} \hfill {\bf September, 2018 - July, 2019} \\
+{\em Teaching Assistant, Computer Science} \hfill {\bf September, 2017 - May, 2018} \\
+{\em Research Intern} \hfill {\bf May, 2017 - August, 2017} \\
+{\em Research Intern} \hfill {\bf May, 2016 - August, 2016}
+
+
+% ----------------------------------------------------------------------------
+% The four publication sections below are AUTO-GENERATED from
+% data/publications.bib by build.py. Edit the .bib, not the \input files.
+% ----------------------------------------------------------------------------
+\section{\sc Pre-print}
+\input{generated/preprints}
+
+\section{\sc Conference Proceedings}
+\input{generated/conference}
+
+\section{\sc Journal Articles}
+\input{generated/journal}
+
+\section{\sc Workshop Proceedings}
+\input{generated/workshop}
+
+% Talks and posters are generated from data/talks.yaml (type: talk / poster).
+\section{\sc Talks}
+\input{generated/talks}
+
+\section{\sc Posters}
+\input{generated/posters}
+
+
+% Service, honors, and references are generated from data/*.yaml.
+\section{\sc Service to the department and university}
+\input{generated/service_department}
+
+\section{\sc Service to the profession}
+\input{generated/service_profession}
+
+\section{\sc Honors, Awards and Grants}
+\input{generated/honors}
+
+% Teaching courses are generated from data/teaching.yaml.
+\section{\sc Teaching}
+\input{generated/teaching}
+
+\section{\sc References}
+\input{generated/references}
+
+
+% Student advising is generated from data/mentoring.yaml.
+\section{\sc Student Advising}
+\input{generated/advising}
+
+
+\end{resume}
+\end{document}

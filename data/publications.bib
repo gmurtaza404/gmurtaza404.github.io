@@ -1,0 +1,175 @@
+% ============================================================================
+%  Ghulam Murtaza — publications (single source of truth)
+% ----------------------------------------------------------------------------
+%  This .bib file drives BOTH the CV (cv/generated/*.tex) and the website
+%  (site/publications.html). To add a paper, add an entry below and re-run
+%  build.py (CI does this automatically on push).
+%
+%  Standard fields (author, title, journal/booktitle, year, doi, ...) are shown
+%  in the website's [BibTeX] dropdown verbatim.
+%
+%  Custom fields (ignored by real LaTeX/BibTeX, used only by build.py and
+%  stripped from the displayed BibTeX):
+%    pubtype = preprint | journal | conference | workshop   (grouping)
+%    venue   = display venue string shown on CV + site (e.g. "ISMB 2024")
+%    status  = preprint status, shown on the CV (e.g. "Under review at ...")
+%    award   = note appended in parentheses (e.g. best-paper runner up)
+%    pdf, code, arxiv, slides = optional links shown on the website
+%
+%  Author names: use "Last, First" so build.py can render "Murtaza G" on the
+%  CV and "Ghulam Murtaza" on the site from the same entry.
+% ============================================================================
+
+% ------------------------------- Preprints ----------------------------------
+
+@article{wagner2026pancreatic,
+  title     = {A complete human pancreatic cancer genome},
+  author    = {Wagner, Justin and Keskus, Ayse G and Oshima, Keisuke K and Ranallo-Benavidez, T. Rhyker and McDaniel, Jennifer and Sikic, Mile and Lin, Dehui and Paulin, Luis F and English, Adam C and Sedlazeck, Fritz J and Munding, Elizabeth M and Sanborn, J. Zachary and Carroll, Andrew and Chang, Pi-Chuan and Cook, Daniel E and Shafin, Kishwar and de Ligt, Joep and Hassaine, Rayan and Cameron, Daniel and Catreux, Severine and Lee, Yeonghun and Murray, Lisa and Truong, Sean and Brueffer, Christian and Zimin, Aleksey V and Cross, Erin and McGowan, Matthew and Vernich, Michael and Liss, Andrew S and Kocher, Jean-Pierre and Stephens, Zachary and Ahmad, Tanveer and Bryant, Asher and Dwarshuis, Nathan and He, Hua-Jun and He, Zhiyong and Olson, Nathan D and Thibaud-Nissen, Francoise and Antipov, Dmitry and Koren, Sergey and Phillippy, Adam and Musunuri, Rajeeva Lochan and Narzisi, Giuseppe and Jain, Miten and Wenger, Aaron M and Eacker, Stephen and Sahraeian, Sayed Mohammad Ebrahim and Boutros, Paul C and Patel, Yash and Yamaguchi, Takafumi N and McConnell, Joseph and Borchers, Matthew and Gerton, Jennifer L and Kostos, Paxton and Guarracino, Andrea and Jehangir, Maryam and Benjamin, Hila and Mootor, Mohammed Faizal Eeman and Xu, Yuan and Asri, Mobin and Miga, Karen H and Park, Jimin and Paten, Benedict and Luo, Ruibang and Zheng, Zhenxian and Choi, Jae Young and Nguyen, Linh and Vats, Pankaj and Robinson, Dan R and Vo, Josh N and Gao, Shenghan and Murtaza, Ghulam and Mason, Christopher E and Cheng, Haoyu and Barthel, Floris P and Xiao, Chunlin and Logsdon, Glennis A and Kolmogorov, Mikhail and Zook, Justin M},
+  journal   = {bioRxiv},
+  year      = {2026},
+  publisher = {Cold Spring Harbor Laboratory},
+  doi       = {10.64898/2026.05.01.722316},
+  pubtype   = {preprint},
+  venue     = {bioRxiv, 2026},
+  pdf       = {https://www.biorxiv.org/content/10.64898/2026.05.01.722316v2}
+}
+
+@article{fang2025evo2hic,
+  title     = {Evo2HiC: a multimodal foundation model for integrative analysis of genome sequence and architecture},
+  author    = {Fang, Tangqi and Wang, Xiao and Xiao, Zixuan and Hang, Shengqi and Murtaza, Ghulam and Yang, Jinrui and Xu, Hanwen and Jha, Anupama and Noble, William S and Wang, Sheng},
+  journal   = {bioRxiv},
+  year      = {2025},
+  publisher = {Cold Spring Harbor Laboratory},
+  pubtype   = {preprint},
+  status    = {Under review at Nature Genetics},
+  venue     = {bioRxiv, 2025}
+}
+
+@article{hang2025puget,
+  title     = {Puget predicts gene expression across cell types using sequence and 3D chromatin organization data},
+  author    = {Hang, Shengqi and Wang, Xiao and Murtaza, Ghulam and Jha, Anupama and Wen, Bo and Fang, Tangqi and Sanders, Justin and Wang, Sheng and Noble, William S},
+  journal   = {bioRxiv},
+  year      = {2025},
+  publisher = {Cold Spring Harbor Laboratory},
+  doi       = {10.1101/2025.11.19.689320},
+  pubtype   = {preprint},
+  status    = {Under review at Nature Genetics},
+  venue     = {bioRxiv, 2025},
+  pdf       = {https://www.biorxiv.org/content/10.1101/2025.11.19.689320}
+}
+
+@article{yu2025hypoad,
+  title     = {HypoAD: volumetric and single-cell analysis reveals changes in the human hypothalamus in aging and Alzheimer's disease},
+  author    = {Yu, Doudou and Germann, J{\"u}rgen and Murtaza, Ghulam and Hajdarovic, Kaitlyn H and Babcock, Kelsey R and Dehkordi, Shiva Kazempour and Jackson, Alexander C and Delalle, Ivana and Orr, Miranda E and Zare, Habil and Singh, Ritambhara and Noble, William S and Vlassenko, Andrei G and Goyal, Manu S and Webb, Ashley E},
+  journal   = {bioRxiv},
+  year      = {2025},
+  publisher = {Cold Spring Harbor Laboratory},
+  doi       = {10.1101/2025.10.08.681270},
+  pubtype   = {preprint},
+  status    = {Under review at Nature},
+  venue     = {bioRxiv, 2025},
+  pdf       = {https://www.biorxiv.org/content/10.1101/2025.10.08.681270}
+}
+
+% --------------------------- Conference papers ------------------------------
+
+@inproceedings{abdullahi2025kpaths,
+  title     = {K-Paths: Reasoning over Graph Paths for Drug Repurposing and Drug Interaction Prediction},
+  author    = {Abdullahi, Tassallah and Gemou, Ioanna and Nayak, Nihal V and Murtaza, Ghulam and Bach, Stephen H and Eickhoff, Carsten and Singh, Ritambhara},
+  booktitle = {Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)},
+  year      = {2025},
+  doi       = {10.1145/3711896.3737011},
+  pubtype   = {conference},
+  venue     = {ACM SIGKDD (KDD) 2025},
+  arxiv     = {https://arxiv.org/abs/2502.13344},
+  code      = {https://github.com/rsinghlab/K-Paths}
+}
+
+@inproceedings{murtaza2024scgraphic,
+  title     = {scGrapHiC: Deep learning-based graph deconvolution for Hi-C using single cell gene expression},
+  author    = {Murtaza, Ghulam and Butaney, Byron and Wagner, Justin and Singh, Ritambhara},
+  booktitle = {Bioinformatics (Proceedings of ISMB)},
+  year      = {2024},
+  pubtype   = {conference},
+  venue     = {ISMB 2024},
+  award     = {Runner up for Ian Lawson Van Toch Best Paper Award},
+  pdf       = {https://www.biorxiv.org/content/10.1101/2024.02.07.579342}
+}
+
+@inproceedings{dogar2020missit,
+  title     = {MissIt: Using Missed Calls for Free, Extremely Low Bit-Rate Communication in Developing Regions},
+  author    = {Dogar, Fahad R and Qazi, Ihsan Ayyub and Tariq, A and Murtaza, Ghulam and Ahmed, A and Stocking, N},
+  booktitle = {Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI)},
+  year      = {2020},
+  doi       = {10.1145/3313831.3376259},
+  pubtype   = {conference},
+  venue     = {ACM CHI 2020}
+}
+
+% ----------------------------- Journal articles -----------------------------
+
+@article{murtaza2024graphic,
+  title   = {GrapHiC: An integrative graph-based approach for imputing missing Hi-C reads},
+  author  = {Murtaza, Ghulam and Wagner, Justin and Zook, Justin M and Singh, Ritambhara},
+  journal = {IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB)},
+  year    = {2024},
+  pubtype = {journal},
+  venue   = {IEEE/ACM TCBB 2024},
+  pdf     = {https://pubmed.ncbi.nlm.nih.gov/39392732/}
+}
+
+@article{murtaza2024comprehensive,
+  title   = {A Comprehensive Evaluation of Generalizability of Deep Learning-Based Hi-C Resolution Improvement Methods},
+  author  = {Murtaza, Ghulam and Jain, Atishay and Hughes, Madeline and Wagner, Justin and Singh, Ritambhara},
+  journal = {Genes},
+  year    = {2024},
+  volume  = {15},
+  number  = {1},
+  pages   = {54},
+  doi     = {10.3390/genes15010054},
+  pubtype = {journal},
+  venue   = {Genes 2024}
+}
+
+@article{qazi2020mobile,
+  title   = {Mobile web browsing under memory pressure},
+  author  = {Qazi, Ihsan Ayyub and Qazi, Zafar and Benson, Theophilus A and Latif, E and Manan, Abdul and Murtaza, Ghulam and Tariq, A},
+  journal = {ACM SIGCOMM Computer Communication Review},
+  year    = {2020},
+  volume  = {50},
+  number  = {4},
+  doi     = {10.1145/3431832.3431837},
+  pubtype = {journal},
+  venue   = {ACM SIGCOMM CCR 2020}
+}
+
+% --------------------------- Workshop proceedings ---------------------------
+
+@inproceedings{li2025sccontrast,
+  title     = {scContrast: A contrastive learning based approach for encoding single-cell gene expression data},
+  author    = {Li, Winston and Murtaza, Ghulam and Singh, Ritambhara},
+  booktitle = {AI4NA Workshop, ICLR},
+  year      = {2025},
+  doi       = {10.1101/2025.04.07.647292},
+  pubtype   = {workshop},
+  venue     = {AI4NA, ICLR 2025},
+  pdf       = {https://www.biorxiv.org/content/10.1101/2025.04.07.647292}
+}
+
+@inproceedings{murtaza2023graphicbiokdd,
+  title     = {GrapHiC: An integrative graph based approach for imputing missing Hi-C reads},
+  author    = {Murtaza, Ghulam and Wagner, Justin and Zook, Justin M and Singh, Ritambhara},
+  booktitle = {BIOKDD},
+  year      = {2023},
+  pubtype   = {workshop},
+  venue     = {BIOKDD 2023}
+}
+
+@inproceedings{murtaza2021weboptprofiler,
+  title     = {WebOptProfiler: Providing performance clarity for Mobile Webpage Optimizations},
+  author    = {Murtaza, Ghulam and Benson, Theophilus A},
+  booktitle = {Proceedings of the 22nd International Workshop on Mobile Computing Systems and Applications (HotMobile)},
+  year      = {2021},
+  pubtype   = {workshop},
+  venue     = {ACM HotMobile 2021}
+}

@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# LaTeX build artifacts
+cv/*.aux
+cv/*.log
+cv/*.out
+cv/*.pdf
+
+# Generated outputs (rebuilt by build.py / CI — not committed)
+cv/generated/
+site/*.html
+site/cv.pdf

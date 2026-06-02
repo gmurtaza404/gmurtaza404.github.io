@@ -1,0 +1,22 @@
+# Service — CV-only (drives cv/generated/service_department.tex and
+# service_profession.tex). Two lists; each item is one line on the CV.
+
+department:
+  - "Genome Sciences postdoctoral representative - 2025 - 2026"
+  - "Computer Science Ph.D. Admissions Committee - 2021 - 2024"
+  - "Organized computer science graduate student orientation at Brown - 2021"
+  - "Peer mentor for International Students at Brown - 2020, 2021"
+  - "GradApp Lab mentor 2019 - 2021"
+  - "Served as a Medical First Responder for EMS at LUMS 2017 - 2019"
+
+profession:
+  - "Reviewer for Generative AI in Genomics ICLR 2025"
+  - "Sub-reviewer for ISMB and RECOMB 2025"
+  - "Reviewer for BMC Genomics 2025"
+  - "Reviewer for Scientific Reports 2025"
+  - "Reviewer for Transactions on Computational Biology and Bioinformatics 2025"
+  - "Reviewer for Computational and Structural Biotechnology Journal 2025"
+  - "Reviewer for MLCB 2023, 2024"
+  - "Reviewer for ICLR MLGenX 2024"
+  - "Sub-reviewer for ICML, RECOMB, KDD, ICLR 2020 - 2025"
+  - "Sub-reviewer for ACM Internet Measurements Conference - 2019"

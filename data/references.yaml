@@ -1,0 +1,22 @@
+# References — CV-only (drives cv/generated/references.tex).
+# Each entry: name, relation (optional), appointment, email.
+
+- name: "William Noble"
+  relation: "Postdoc Advisor"
+  appointment: "Professor at University of Washington, Seattle"
+  email: "wnoble@uw.edu"
+
+- name: "Ritambhara Singh"
+  relation: "Ph.D. Advisor"
+  appointment: "John E. Savage Associate Professor at Brown University"
+  email: "ritambhara@brown.edu"
+
+- name: "Stephen Bach"
+  relation: ""
+  appointment: "Eliot Horowitz Assistant Professor at Brown University"
+  email: "stephen_bach@brown.edu"
+
+- name: "Justin Wagner"
+  relation: ""
+  appointment: "Staff Scientist at National Institute of Standards and Technology"
+  email: "justin@jmwagner.org"

@@ -1,0 +1,46 @@
+# Student advising & mentoring — drives site/teaching.html (Mentoring section)
+# and cv/generated/advising.tex
+# Each entry:
+#   name:    student name
+#   project: short project description
+#   lab:     the lab where you mentored them
+
+- name: "Kyra Fetter"
+  project: "Benchmarking modality matching methods for single-cell Hi-C and RNA-seq measurements"
+  lab: "Noble Lab, University of Washington"
+
+- name: "Winston Li"
+  project: "Evaluating contrastive learning based approaches for aligning scRNA-seq with scHi-C"
+  lab: "Singh Lab, Brown University"
+
+- name: "Byron Butaney"
+  project: "Evaluating efficacy of large single-cell RNA-seq models in capturing higher order biological semantics"
+  lab: "Singh Lab, Brown University"
+
+- name: "Keya Kilachand"
+  project: "Modeling cell cycles in single-cell Hi-C data with Hamiltonian Neural Networks"
+  lab: "Singh Lab, Brown University"
+
+- name: "Xiaoke Song"
+  project: "Extracting features from single-cell Hi-C for accurate multi-modal integration and alignment"
+  lab: "Singh Lab, Brown University"
+
+- name: "Wangdrak Dorji"
+  project: "Modeling structural dynamics of proteins with anisotropic network models (ANM) for accurate protein-protein interaction predictions"
+  lab: "Singh Lab, Brown University"
+
+- name: "Madeline Hughes"
+  project: "Evaluating generalizability of Hi-C resolution improvement frameworks"
+  lab: "Singh Lab, Brown University"
+
+- name: "Thulasi Varatharajan"
+  project: "Non-parametric methods for improving resolution of Hi-C contact matrices"
+  lab: "Singh Lab, Brown University"
+
+- name: "Abdul Manan"
+  project: "Dissecting memory utilization of JavaScript in the webpage loading process"
+  lab: "Networks and Systems Lab, LUMS"
+
+- name: "Abrar Tariq"
+  project: "Characterizing memory consumption of Alexa top 1000 web pages"
+  lab: "Networks and Systems Lab, LUMS"
