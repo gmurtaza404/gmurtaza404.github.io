@@ -17,11 +17,16 @@ No third-party deps except PyYAML. The BibTeX parser is a small self-contained
 one (below) so there's nothing else to install in CI.
 """
 
+import datetime
 import html
 import os
 import re
 
 import yaml
+
+# Build/deploy time, shown in the site footer and at the end of the CV.
+_BUILD_DT = datetime.datetime.now(datetime.timezone.utc)
+BUILD_STAMP = f"{_BUILD_DT:%B} {_BUILD_DT.day}, {_BUILD_DT:%Y} at {_BUILD_DT:%H:%M} UTC"
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(ROOT, "data")
@@ -289,7 +294,7 @@ def web_pub_item(e):
             links.append(f'<a href="{h(f[field])}">[{label}]</a>')
     bibtex = h_raw(clean_bibtex(e))
     links.append(
-        '<details class="bibtex"><summary>BibTeX</summary>'
+        '<details class="bibtex"><summary></summary>'
         f'<pre>{bibtex}</pre></details>'
     )
 
@@ -346,6 +351,11 @@ def write_cv_fragments(pubs, talks, teaching, mentoring):
 
     fragments["posters.tex"] = talk_block("poster")
     fragments["talks.tex"] = talk_block("talk")
+
+    # "Last updated" line shown at the end of the CV.
+    fragments["updated.tex"] = (
+        r"{\footnotesize\textit{Last updated: " + BUILD_STAMP + "}}\n"
+    )
 
     # Teaching courses.
     tlines = []
@@ -436,7 +446,7 @@ def page(active, title, body, name):
 {body}
   </main>
   <footer class="site-footer">
-    <p>Last updated automatically from a single source. &copy; {h(name)}.</p>
+    <p>Last updated {BUILD_STAMP}. &copy; {h(name)}.</p>
   </footer>
 </body>
 </html>
