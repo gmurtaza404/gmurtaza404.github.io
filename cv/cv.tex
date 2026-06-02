@@ -27,11 +27,15 @@
 
 \usepackage{pifont}   % provides \ding (used in the list1 environment below)
 \usepackage{color}
+\usepackage{eso-pic}  % lets us pin the "Last updated" line to the bottom of page 1
 \def\S{\textcolor{magenta}{Contribution:} Led the project and advised the trainees solely on the project. Contributed to project planning and management, discussions, manuscript preparation and submission.}
 \def\C{\textcolor{cyan}{Contribution:} Co-led the project and co-advised the trainees on the project. Contributed to project planning and management, discussions, manuscript preparation and submission.}
 \def\A{\textcolor{blue}{Contribution:} Contributed to project implementations, planning and management, discussions, and manuscript preparation.}
 
 \begin{document}
+
+% Pins the "Last updated" line to the bottom of page 1 (see build.py).
+\input{generated/updated}
 
 \name{Ghulam Murtaza \vspace*{.1in}}
 
@@ -144,9 +148,6 @@ Representation Learning, Machine/Deep Learning, Genomics
 % Student advising is generated from data/mentoring.yaml.
 \section{\sc Student Advising}
 \input{generated/advising}
-
-\vspace{0.25in}
-\input{generated/updated}
 
 
 \end{resume}

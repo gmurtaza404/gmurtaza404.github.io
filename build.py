@@ -352,9 +352,13 @@ def write_cv_fragments(pubs, talks, teaching, mentoring):
     fragments["posters.tex"] = talk_block("poster")
     fragments["talks.tex"] = talk_block("talk")
 
-    # "Last updated" line shown at the end of the CV.
+    # "Last updated" line pinned to the bottom-center of page 1 (eso-pic).
     fragments["updated.tex"] = (
-        r"{\footnotesize\textit{Last updated: " + BUILD_STAMP + "}}\n"
+        r"\AddToShipoutPictureBG*{%" + "\n"
+        r"  \AtPageLowerLeft{%" + "\n"
+        r"    \put(\LenToUnit{0.5\paperwidth},\LenToUnit{0.4in}){%" + "\n"
+        r"      \makebox(0,0){\footnotesize\textit{Last updated: "
+        + BUILD_STAMP + r"}}}}}" + "\n"
     )
 
     # Teaching courses.
