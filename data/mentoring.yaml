@@ -5,6 +5,14 @@
 #   project: short project description
 #   lab:     the lab where you mentored them
 
+- name: "Amir Momoh"
+  project: "Enhancing pseudobulk scHi-C with foundation models"
+  lab: "Noble Lab, University of Washington"
+
+- name: "Shuhua Xu"
+  project: "Developing methods to study the effect of non-coding transcripts on gene regulation"
+  lab: "Noble Lab, University of Washington"
+
 - name: "Kyra Fetter"
   project: "Benchmarking modality matching methods for single-cell Hi-C and RNA-seq measurements"
   lab: "Noble Lab, University of Washington"
