@@ -11,9 +11,8 @@ data/publications.bib   ← papers (BibTeX)          ┐
 data/talks.yaml         ← talks & posters          │ CV + website
 data/teaching.yaml      ← courses                  │
 data/mentoring.yaml     ← student advising         ┘
-data/service.yaml       ← service (dept + profession)  ┐
-data/honors.yaml        ← honors, awards, grants       │ CV only
-data/references.yaml    ← references                   ┘
+data/service.yaml       ← service (dept + profession)  ┐ CV only
+data/honors.yaml        ← honors, awards, grants       ┘
 data/about.yaml         ← landing-page text, links, photo  (website only)
         │
         ▼  build.py
@@ -28,8 +27,8 @@ data/about.yaml         ← landing-page text, links, photo  (website only)
   lists are auto-truncated to "first 3, …, Murtaza G, et al." on the CV/site,
   while the BibTeX block keeps the full list.
 - Everything else is YAML. Some files feed **both** the CV and the website
-  (talks, teaching, mentoring); others are **CV-only** (service, honors,
-  references) and never appear on the site.
+  (talks, teaching, mentoring); others are **CV-only** (service, honors) and
+  never appear on the site.
 - `cv/cv.tex` keeps its original `res.cls` styling. Its dynamic sections are
   `\input` from `cv/generated/` (auto-generated — don't edit those). A handful
   of stable sections (Position, Contact, Education, Appointments) are still
@@ -64,7 +63,6 @@ Edit the relevant file in `data/` and push:
 | Mentee | `data/mentoring.yaml` | CV + site |
 | Award / grant | `data/honors.yaml` | CV only |
 | Service item | `data/service.yaml` | CV only |
-| Reference | `data/references.yaml` | CV only |
 
 For stable header sections (Education, Appointments, Contact), edit
 `cv/cv.tex` directly. No HTML editing is ever required.

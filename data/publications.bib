@@ -10,9 +10,12 @@
 %
 %  Custom fields (ignored by real LaTeX/BibTeX, used only by build.py and
 %  stripped from the displayed BibTeX):
-%    pubtype = preprint | journal | conference | workshop   (grouping)
+%    pubtype = accepted | preprint | journal | conference | workshop   (grouping)
 %    venue   = display venue string shown on CV + site (e.g. "ISMB 2024")
-%    status  = preprint status, shown on the CV (e.g. "Under review at ...")
+%    status  = preprint/accepted status, shown on the CV (e.g. "Under review at ...")
+%    cofirst = N: the first N authors contributed equally (marked *)
+%    corresponding = corresponding author(s), "Last, First" exactly as in
+%              `author`, joined by "and" (marked with a dagger)
 %    award   = note appended in parentheses (e.g. best-paper runner up)
 %    pdf, code, arxiv, slides = optional links shown on the website
 %
@@ -43,6 +46,7 @@
   publisher = {Cold Spring Harbor Laboratory},
   doi       = {10.64898/2026.05.01.722316},
   pubtype   = {preprint},
+  status    = {Under review at Nature},
   venue     = {bioRxiv, 2026},
   pdf       = {https://www.biorxiv.org/content/10.64898/2026.05.01.722316v2}
 }
@@ -78,7 +82,7 @@
   year      = {2025},
   publisher = {Cold Spring Harbor Laboratory},
   doi       = {10.1101/2025.10.08.681270},
-  pubtype   = {preprint},
+  pubtype   = {accepted},
   status    = {Accepted in principle at Nature},
   venue     = {bioRxiv, 2025},
   pdf       = {https://www.biorxiv.org/content/10.1101/2025.10.08.681270}

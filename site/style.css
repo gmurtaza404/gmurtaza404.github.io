@@ -88,6 +88,7 @@ ul.pub-list, ul.talk-list, ul.course-list, ul.mentee-list {
 .affil { color: var(--muted); font-weight: 400; font-size: .92rem; }
 .now { color: var(--muted); font-size: .9rem; }
 .award { color: var(--accent-dark); font-size: .9rem; }
+.pub-legend { color: var(--muted); font-size: .9rem; }
 
 /* ---- Links row under a publication ---- */
 .pub-links { margin-top: .35rem; font-size: .88rem; display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; }
