@@ -204,7 +204,13 @@ def author_marks(e, star, dagger):
 
 def _render_authors(author_field, render_one, ellipsis, marks=None):
     authors = split_authors(author_field)
+    # BibTeX convention: a trailing "and others" means the author list is incomplete.
+    etal = bool(authors) and authors[-1].strip().lower() == "others"
+    if etal:
+        authors = authors[:-1]
     rendered = [render_one(a) + (marks or {}).get(i, "") for i, a in enumerate(authors)]
+    if etal:
+        return ", ".join(rendered) + ", et al."
     if len(rendered) <= MAX_AUTHORS:
         return ", ".join(rendered)
     me_idx = next((i for i, a in enumerate(authors) if is_me(name_parts(a)[0])), None)
@@ -237,8 +243,9 @@ def pub_legend(pubs, star, dagger, me):
         parts.append(f"{star} equal contribution")
     if any(e["fields"].get("corresponding") for e in pubs):
         parts.append(f"{dagger} corresponding author")
-    n_first = sum(is_first_author(e) for e in pubs)
-    return "; ".join(parts) + f". First author on {n_first} of {len(pubs)} publications."
+    counted = [e for e in pubs if e["pubtype"] != "inprep"]  # manuscripts aren't publications yet
+    n_first = sum(is_first_author(e) for e in counted)
+    return "; ".join(parts) + f". First author on {n_first} of {len(counted)} publications."
 
 
 # --------------------------------------------------------------------------- #
@@ -387,6 +394,7 @@ def write_cv_fragments(pubs, talks, teaching, mentoring):
         "pub_legend.tex": pub_legend(pubs, CV_STAR, CV_DAGGER, r"\textbf{Murtaza G}") + "\n",
         "accepted.tex": pubs_of("accepted"),
         "preprints.tex": pubs_of("preprint"),
+        "inprep.tex": pubs_of("inprep"),
         "conference.tex": pubs_of("conference"),
         "journal.tex": pubs_of("journal"),
         "workshop.tex": pubs_of("workshop"),
@@ -539,13 +547,15 @@ def build_publications(pubs, name):
     def of(*types):
         return sorted([e for e in pubs if e["pubtype"] in types], key=lambda e: -e["year"])
 
-    published = sorted([e for e in pubs if e["pubtype"] not in ("preprint", "accepted")],
+    published = sorted([e for e in pubs if e["pubtype"] not in ("preprint", "accepted", "inprep")],
                        key=lambda e: -e["year"])
     legend = pub_legend(pubs, WEB_STAR, WEB_DAGGER, f"<strong>{h(name)}</strong>")
     body = "    <h1>Publications</h1>\n"
     body += f'    <p class="pub-legend">{legend}</p>\n'
     body += section("Accepted", of("accepted")) + "\n"
     body += section("Preprints", of("preprint")) + "\n"
+    if of("inprep"):
+        body += section("In Preparation", of("inprep")) + "\n"
     body += section("Peer-reviewed", published)
     return page("publications.html", "Publications", body, name)
 
