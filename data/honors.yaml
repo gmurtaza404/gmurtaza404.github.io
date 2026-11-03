@@ -2,8 +2,8 @@
 # Each item is one line on the CV. Newest first.
 # Format: "Name (details), years" (use "--" for a range, e.g. "2025--Present").
 
-- "Google Academic Research Award (co-PI, $100,000) for ``Fractal: Sequencing depth invariant representation learning for 3D genome architecture'', 2026"
-- "NVIDIA Academic Grant Program (8x A100 80GB GPUs for 6 months, estimated value ~$50,000), 2026"
+- "Google TPU Research Award, 2026 Google Awards for Machine Learning Research and Education with TPUs (Co-Applicant with W. S. Noble, PI; $50,000 gift + $50,000 Google Cloud credits) for ``Fractal: Sequencing depth invariant representation learning for 3D genome architecture'', 2026"
+- "NVIDIA Academic Grant Program (with W. S. Noble, PI; 32,000 A100 GPU-hours, estimated value ~$48,000) for ``A foundation model for long-range gene regulation in full transcriptomes'', 2026"
 - "UW Data Science Postdoctoral Fellowship, 2025--Present"
 - "Tahoe Hackathon travel grant, 2025"
 - "Brown Graduate School Fellowship, 2019"
