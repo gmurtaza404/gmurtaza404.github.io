@@ -17,7 +17,7 @@
   type: poster
   date: 2024
 
-- title: "GEGGE: A Graph Encoder for Generalized Genomics Embeddings"
+- title: "GEGEE: A pretrained Graph Encoder for Generalized Genomic Embeddings"
   venue: "Workshop on Algorithms in Bioinformatics (WABI), ACM-BCB 2023"
   type: poster
   date: 2023
@@ -33,11 +33,11 @@
   date: 2023
 
 - title: "GrapHiC: An integrative graph based approach for imputing missing Hi-C reads"
-  venue: "Machine Learning in Computational Biology (MLCB) 2023"
+  venue: "Machine Learning in Computational Biology (MLCB) 2022"
   type: poster
-  date: 2023
+  date: 2022
 
-- title: "WebOptProfiler: Providing performance clarity for Mobile Webpage Optimizations"
-  venue: "International Conference on emerging Networking EXperiments and Technologies (CoNEXT) 2020"
+- title: "WebOpt Profiler: Providing performance clarity for Web Optimizations"
+  venue: "Student Workshop, International Conference on emerging Networking EXperiments and Technologies (CoNEXT) 2020"
   type: talk
   date: 2020
